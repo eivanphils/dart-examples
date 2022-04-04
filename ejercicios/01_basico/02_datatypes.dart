@@ -35,4 +35,12 @@ main() {
   print(name2);
   print(name3);
   print(multilinea);
+  
+  // ======== bool
+  
+  bool isActive = true;
+  bool isNotActive = !isActive;
+  
+  print(isActive);
+  print(isNotActive);
 }
