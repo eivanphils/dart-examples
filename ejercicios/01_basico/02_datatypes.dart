@@ -43,4 +43,16 @@ main() {
   
   print(isActive);
   print(isNotActive);
+
+  // =============== Lists
+  
+  List<String> villanos = ['Uno', 'Goku']; // son base 0
+  
+  villanos.add('joker');
+  
+  villanos[0] = 'thanos';
+  
+  villanos[1] = 'voldermort';
+  
+  print(villanos);
 }
