@@ -76,4 +76,33 @@ main() {
   
   print('Sets: $villanos2');
 
+  // ======== Maps
+
+  Map<String, dynamic> anakin = {
+    'lastName': 'skywalker',
+    'weapon': 'lightsaber',
+    'faction': 'dark side',
+  };
+  
+  print(anakin);
+  
+  print(anakin['lastName']);
+  print(anakin['faction']);
+   
+  // otra forma de definir una variable tipo Map
+  
+ Map<String, dynamic> obiwan = new Map();
+
+  obiwan.addAll({
+    'lastName': 'kenobi',
+    'weapon': 'lightsaber',
+    'faction': 'light side',
+  });
+  
+  print(obiwan);
+  print(obiwan.values);
+  print(obiwan['lastName']);
+  print(obiwan['faction']);
+  
+
 }
