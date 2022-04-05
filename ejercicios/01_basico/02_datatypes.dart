@@ -54,5 +54,26 @@ main() {
   
   villanos[1] = 'voldermort';
   
-  print(villanos);
+  villanos.add('joker');
+  villanos.add('joker');
+  villanos.add('joker');
+  villanos.add('joker');
+  
+  print('List String: $villanos');
+  
+  var villanosSet = villanos.toSet();
+  
+  print(villanosSet.toList());
+  
+  // ================ sets
+  
+  Set<String> villanos2 = { 'thanos', 'voldermor'};
+  
+  villanos2.add('jocker');
+  villanos2.add('jocker');
+  villanos2.add('jocker');
+  villanos2.add('d');
+  
+  print('Sets: $villanos2');
+
 }
