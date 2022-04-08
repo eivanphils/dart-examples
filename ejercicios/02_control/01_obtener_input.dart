@@ -1,7 +1,5 @@
-import 'dart:developer';
 import 'dart:io';
 
-import 'dart:io';
 
 main() {
   //imprimir en terminal o cm
