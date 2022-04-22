@@ -5,8 +5,10 @@
  */
 class Person {
   // properties
+  // las propiedades por defecto son publicas
   String? name;
   int? age;
+  // el signo _ indica que la propiedad es privada
   String _description = 'mi descripcion';
 
   // Get and Sets
@@ -34,7 +36,10 @@ class Person {
   //   this.age = age;
   // }
 
-  // constructor resumido, se puede agregar argumentos posicionales, por nombre 
+  // constructor corto con argumentos posicionales
+  // Person(this.name, this.age);
+  
+  // constructor resumido, se puede agregar por nombre 
   Person({this.age = 0, this.name = 'sin nombre'});
 
   // constructor con nombre
