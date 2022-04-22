@@ -4,7 +4,9 @@ class Figura {
   int? area;
   String? tipo;
 
+  // el contructor factory devuelve una instancia de la clase nueva o pre-existente
   factory Figura(int base, int altura) {
+    // aca se puede agregar la logica que desee pero retornando una instacia de la clase
     if (base == altura) {
       return Figura.cuadrado(base);
     } else {
