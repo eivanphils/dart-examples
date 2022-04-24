@@ -7,7 +7,7 @@ void main() {
   final myService2 = new MiServicio();
   myService2.url = 'cambio la url misma referencia en memoria';
 
-  print(myService1 == myService2);
+  print(myService1 == myService2); // true
   print(myService1.url);
   print(myService2.url);
 }
