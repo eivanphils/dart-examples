@@ -1,8 +1,6 @@
 // no se pueden crear instancias
 // no tiene constructor
-// solo se puede transferir a otra clase
-import '05_mixins2.dart';
-
+// solo se puede transferir sus propiedades a otra clase
 mixin Logger {
   void imprimir(String texto) {
     final hoy = new DateTime.now();
