@@ -1,3 +1,5 @@
+import 'dart:indexed_db';
+
 abstract class Vehiculo {
   bool encendido = false;
 
@@ -14,6 +16,27 @@ abstract class Vehiculo {
   bool revisarMotor();
 }
 
+// al usar implements se deben definir y usar todos los metodos de Vehiculo
+class Moto implements Vehiculo {
+  @override
+  void apagar() {
+    // TODO: implement apagar
+  }
+  @override
+  void enceder() {
+    // TODO: implement enceder
+  }
+
+  @override
+  bool revisarMotor() {
+    // TODO: implement revisarMotor
+    throw UnimplementedError();
+  }
+
+  bool encendido = false;
+}
+
+// al usar extends se deben heredan todos los metodos de Vehiculo pero no necesariamente se utilizan
 class Carro extends Vehiculo {
   int kilometaje = 0;
 
